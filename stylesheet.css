@@ -1,4 +1,14 @@
 body {
-  background-color: #7db6b1; }
+  background-color: #F2F0D5; }
+
+.nav {
+  background-color: #668C4A; }
+
+.nav li {
+  padding: 5px;
+  margin: 5px; }
+.nav li:hover {
+  padding: 5px;
+  margin: 10px; }
 
 /*# sourceMappingURL=stylesheet.css.map */

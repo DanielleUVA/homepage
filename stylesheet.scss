@@ -1,9 +1,26 @@
-$background_colour: rgb(125, 182, 177);
-$font-stack: tahoma;
-$font-style: bold;
-
-
+$background_color: #F2F0D5;
+$nav_color: #668C4A;
 
 body {
-    background-color: $background_colour;
+    background-color: $background_color;
 }
+
+%nav {
+    background-color: $nav_color;
+}
+
+.nav {
+    @extend %nav;
+    li {
+        padding: 5px;
+        margin: 5px;
+    }
+    li:hover{
+        padding: 5px;
+        margin: 10px;
+    }
+}
+
+
+
+

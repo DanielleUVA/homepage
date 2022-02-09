@@ -1,0 +1,125 @@
+body {
+    font-family: "Georgia", Verdana, sans-serif;
+}
+
+.header {
+    background-image: url("banner1.jpg");
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.row {
+    width:auto;
+}
+
+.row > div {
+    padding: 30px;
+    font-size: 14px;
+    color: #F2F0D5;
+    border-style: inset;
+    border: 20px, black;
+    background-color: #668C4A;;
+    text-align: center;
+}
+
+.text {
+    border: #B1B1AC;
+    background-color:#A6BF4B;
+    color: f2f2f2;
+    font-size: 14px;
+    padding: 200px 12px;
+    text-align: center;
+    border-radius: 2px;
+    border-width: 1px;
+    border: #668C4A;
+}
+
+a:link {
+    color: #F2F0D5;
+}
+
+a:visited {
+    color: #F2F0D5;
+}
+
+a:hover {
+    color: #F2F0D5;
+}
+
+.div_buttons {
+    background-color: #668C4A;
+    font-size: 12px;
+    padding: 12px 50px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border-width: 1px;
+    border: #668C4A
+}
+
+.div_buttons:hover {
+    background-color: #668C4A;
+    font-size: 14px;
+    padding: 12px 28px;
+    text-align: center;
+    border-radius: 2px;
+    border-width: 1px;
+    border: #668C4A;
+}
+
+table {
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    align-content: center;
+}
+
+#table_body {
+    background-color: whitesmoke;
+}
+
+th {
+    background-color: #668C4A;
+    color: #F2F0D5;
+}
+
+.card {
+    background-color: #B1B1AC;
+    margin: 20px;
+}
+
+.card-header {
+    background-color:#F2F0D5;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-body {
+    background-color:#668C4A;
+    color: #F2F0D5;
+}
+
+.btn {
+    background-color:darkslategrey;
+    color: black;
+    padding: 20px;
+}
+
+<div class="card">
+<h5 class="card-header">Header/h5>
+<div class="card-body">
+  <h5 class="card-title">Title</h5>
+  <p class="card-text">Text</p>
+  <a href="mainpage.html" class="btn btn-primary">Home</a>
+</div>
+
+
