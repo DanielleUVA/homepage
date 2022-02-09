@@ -82,6 +82,14 @@ th, td {
     align-content: center;
 }
 
+tr {
+    background-color:#F2F0D5;
+}
+
+.tr {
+    background-color: #668C4A;
+}
+
 #table_body {
     background-color: whitesmoke;
 }
@@ -113,13 +121,3 @@ th {
     color: black;
     padding: 20px;
 }
-
-<div class="card">
-<h5 class="card-header">Header/h5>
-<div class="card-body">
-  <h5 class="card-title">Title</h5>
-  <p class="card-text">Text</p>
-  <a href="mainpage.html" class="btn btn-primary">Home</a>
-</div>
-
-
