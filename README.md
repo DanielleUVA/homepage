@@ -1,9 +1,8 @@
 # Homepage
 # Danielle Boomstra
+# 4 page website
 
-# Website existing of 4 pages
-
-All pages have the same header 
+All pages have the same header (image)
 Home 
 - 4 hyperlink buttons to navigate to other websitepages
 - text box
